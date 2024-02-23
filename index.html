@@ -1,0 +1,52 @@
+addEventListener('fetch', event => {
+    event.respondWith(handleRequest(event.request));
+  });
+  
+  async function handleRequest(request) {
+    // 解析请求URL
+    const url = new URL(request.url);
+    
+    // 检查是否是OAuth回调路径
+    if (url.pathname === "/oauth-callback") {
+      // 从URL查询参数中获取code
+      const code = url.searchParams.get('code') || 'No code provided';
+  
+      // 返回一个HTML页面
+      return new Response(generateHTMLPage(code), {
+        headers: {
+          'Content-Type': 'text/html',
+        },
+      });
+    }
+  
+    // 如果不是OAuth回调，则返回404
+    return new Response('Not Found', { status: 404 });
+  }
+  
+  // 生成HTML页面的函数
+  function generateHTMLPage(code) {
+    return `<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Notion OAuth Code</title>
+  <style>
+    body { text-align: center; padding: 50px; font-family: 'Arial'; }
+    #code { margin: 20px auto; padding: 10px; border: 1px solid #ddd; }
+    #copyButton { padding: 10px 20px; }
+  </style>
+  </head>
+  <body>
+    <h1>Your Notion OAuth Code</h1>
+    <input type="text" value="${code}" id="code" readonly>
+    <button id="copyButton">Copy Code</button>
+    <script>
+      document.getElementById('copyButton').onclick = function() {
+        var code = document.getElementById('code');
+        code.select();
+        document.execCommand('copy');
+      };
+    </script>
+  </body>
+  </html>`;
+  }
