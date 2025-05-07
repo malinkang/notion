@@ -2,9 +2,9 @@
 outline: deep
 ---
 
-# 安装
+## 安装
 
-打开网址https://www.notionhub.app/，点击下载插件：
+打开网址 https://www.notionhub.app/ 点击下载插件：
 
 ![](https://images.malinkang.com/2025/05/0d304e0d6dd7c5c726431f88dcbaaad2.png)
 
@@ -12,7 +12,7 @@ outline: deep
 
 ![](https://images.malinkang.com/2025/05/06306ca2c6cde869aad1cf8518f3fa0f.png)
 
-然后打开右上角的开发者模式。
+然后打开右上角的开发者模式
 
 ![](https://images.malinkang.com/2025/05/34a897ca7322291f19aa54e4d39a23c0.png)
 

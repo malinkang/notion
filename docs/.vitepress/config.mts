@@ -14,7 +14,8 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: '安装', link: '/docs/install' }
+          { text: '安装', link: '/docs/install' },
+          { text: '获得激活码', link: '/docs/get-activation-code' }
         ]
       }
     ],
