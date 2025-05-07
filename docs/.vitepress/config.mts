@@ -8,13 +8,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '使用文档', link: '/docs' }
+      { text: '使用文档', link: '/docs/install' }
     ],
     logo: "logo.webp",
     sidebar: [
       {
         items: [
-          { text: '关于', link: '/about' }
+          { text: '安装', link: '/docs/install' }
         ]
       }
     ],
