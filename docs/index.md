@@ -3,33 +3,33 @@
 layout: home
 
 hero:
-  name: "Notion助手"
+  name: "Notion自动化"
   text: "自动化实现All-in-One."
   tagline: 让Notion使用更简单，自动化构建人生管理系统.
   actions:
     - theme: brand
-      text: 关于
-      link: /about
+      text: 下载插件
+      link: /notionhub.zip
   image:
     src: /logo.webp
     alt: NotionHelper
-features:
-  - icon: 
-      src: /weread.webp
-    title: Weread2Notion
-    details: 将微信读书笔记和划线同步到Notion。
-    link: https://malinkang.com/posts/weread2notion/
-  - icon: 
-      src: /weread.webp
-    title: Weread2NotionPro
-    details: Weread2Notion升级版，除了同步笔记，还可以同步书架中没读的书，同步每日阅读时长。
-    link: https://malinkang.com/posts/weread2notion-pro/
-  - icon: 
-      src: /douban.jpg
-    title: Douban2Notion
-    details: 将豆瓣电影和读书自动化同步到Notion
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - icon: 
+#       src: /weread.webp
+#     title: 微信读书同步
+#     details: 自动将微信读书笔记和划线以及阅读时长自动到Notion。
+    # link: https://malinkang.com/posts/weread2notion/
+  # - icon: 
+  #     src: /weread.webp
+  #   title: Weread2NotionPro
+  #   details: Weread2Notion升级版，除了同步笔记，还可以同步书架中没读的书，同步每日阅读时长。
+  #   link: https://malinkang.com/posts/weread2notion-pro/
+  # - icon: 
+  #     src: /douban.jpg
+  #   title: Douban2Notion
+  #   details: 将豆瓣电影和读书自动化同步到Notion
+  # - title: Feature C
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 
