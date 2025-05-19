@@ -2,7 +2,17 @@
 outline: deep
 ---
 
+
+
 ## 安装
+
+### 通过插件市场安装
+
+* Chrome浏览器可以打开这个链接安装：https://chromewebstore.google.com/detail/notionhub/hgfdgnpgbginjojfpjaciadnmnnfidio?hl=zh-cn
+* Edge浏览器可以打开这个链接安装：https://microsoftedge.microsoft.com/addons/detail/nhcohggkdochmfmnhaiemejiipnejkaf
+
+### 手动安装
+
 
 打开网址 https://www.notionhub.app/ 点击下载插件：
 
