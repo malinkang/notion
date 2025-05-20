@@ -4,7 +4,7 @@ outline: deep
 
 # 使用指南
 
-新版本和原weread2notionpro模板一致。预览效果：https://book.malinkang.com/malinkang/
+新版本和原weread2notionpro模板一致。预览效果：https://book.malinkang.com/
 
 ## 使用新的模板
 
