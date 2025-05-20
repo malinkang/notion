@@ -8,13 +8,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '使用文档', link: '/docs/install' }
+      { text: '使用文档', link: '/docs/usage' },
     ],
     logo: "logo.png",
     sidebar: [
       {
         items: [
           { text: '安装', link: '/docs/install' },
+          { text: '使用', link: '/docs/usage' },
           { text: '获得激活码', link: '/docs/get-activation-code' }
         ]
       }
