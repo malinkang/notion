@@ -4,6 +4,8 @@ outline: deep
 
 # 使用指南
 
+新版本和原weread2notionpro模板一致。预览效果：https://book.malinkang.com/malinkang/
+
 ## 使用新的模板
 
 如果你之前没有使用过weread2notionpro。或者使用过，但是也不想要原来的模板了，可以按照下面视频复制新模板即可。
