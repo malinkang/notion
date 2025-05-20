@@ -2,7 +2,17 @@
 outline: deep
 ---
 
-# 手动安装
+# 安装
+
+## 在Chrome上安装
+
+
+<video src="https://images.malinkang.com/Google%20Chrome.mp4" controls></video>
+
+
+## 在Chrome上手动安装
+
+
 
 
 点击[这里](../notionhub.zip)下载插件：
