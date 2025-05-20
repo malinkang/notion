@@ -2,21 +2,11 @@
 outline: deep
 ---
 
+# 手动安装
 
 
-## 安装
+点击[这里](../notionhub.zip)下载插件：
 
-### 通过插件市场安装
-
-* Chrome浏览器可以打开这个链接安装：https://chromewebstore.google.com/detail/notionhub/hgfdgnpgbginjojfpjaciadnmnnfidio?hl=zh-cn
-* Edge浏览器可以打开这个链接安装：https://microsoftedge.microsoft.com/addons/detail/nhcohggkdochmfmnhaiemejiipnejkaf
-
-### 手动安装
-
-
-打开网址 https://www.notionhub.app/ 点击下载插件：
-
-![](https://images.malinkang.com/2025/05/0d304e0d6dd7c5c726431f88dcbaaad2.png)
 
 下载成功之后，打开chrome浏览器输入`chrome://extensions/` 
 

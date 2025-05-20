@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Notion自动化",
+  title: "Notionhub",
   description: "自动化实现Notion all in one.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -10,7 +10,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '使用文档', link: '/docs/install' }
     ],
-    logo: "logo.webp",
+    logo: "logo.png",
     sidebar: [
       {
         items: [

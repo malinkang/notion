@@ -3,17 +3,17 @@
 layout: home
 
 hero:
-  name: "Notion自动化"
-  text: "自动化实现All-in-One."
-  tagline: 让Notion使用更简单，自动化构建人生管理系统.
+  name: "Notionhub"
+  # text: "自动化实现All-in-One."
+  tagline: 自动将微信读书笔记、划线、阅读时长同步到Notion.
   actions:
-    - theme: brand
-      text: 下载插件
-      link: /notionhub.zip
-    - theme: brand # 或者其他主题，我们主要通过class覆盖
-      text: Install on Chrome # 修改为你想要的文本
-      link: /your-plugin-link # 指向你的插件链接
-      image: custom-chrome-button # 添加自定义类名
+    # - theme: brand
+    #   text: 下载插件
+    #   link: /notionhub.zip
+    # - theme: brand # 或者其他主题，我们主要通过class覆盖
+    #   text: Install on Chrome # 修改为你想要的文本
+    #   link: /your-plugin-link # 指向你的插件链接
+    #   image: custom-chrome-button # 添加自定义类名
   # image:
   #   src: /logo.webp
   #   alt: NotionHelper
@@ -21,20 +21,19 @@ features:
   - icon: 
       src: /chrome.png
     title: 在Chrome上安装
-    link: https://malinkang.com/posts/weread2notion/
+    link: https://chromewebstore.google.com/detail/notionhub/hgfdgnpgbginjojfpjaciadnmnnfidio?hl=zh-cn
   - icon: 
-      src: /chrome.png
+      src: /edge.png
     title: 在Edge上安装
-    link: https://malinkang.com/posts/weread2notion/
+    link: https://microsoftedge.microsoft.com/addons/detail/notionhub/nhcohggkdochmfmnhaiemejiipnejkaf
   - icon: 
-      src: /chrome.png
+      src: /firefox.png
     title: 在Firefox上安装
-    link: https://malinkang.com/posts/weread2notion/
-  # - icon: 
-  #     src: /weread.webp
-  #   title: Weread2NotionPro
-  #   details: Weread2Notion升级版，除了同步笔记，还可以同步书架中没读的书，同步每日阅读时长。
-  #   link: https://malinkang.com/posts/weread2notion-pro/
+    link: https://addons.mozilla.org/zh-CN/firefox/addon/notionhub/
+  - icon: 
+      src: /download.png
+    title: 手动安装
+    link: docs/install
   # - icon: 
   #     src: /douban.jpg
   #   title: Douban2Notion
@@ -45,7 +44,7 @@ features:
 
 
 
-<!-- <img src="/gzh.png" style="display: block; margin: 50px auto; width:800px;height:auto;" /> -->
+<img src="/gzh.png" style="display: block; margin: 50px auto; width:800px;height:auto;" />
 
 
 <style>
