@@ -16,7 +16,8 @@ export default defineConfig({
         items: [
           { text: '安装', link: '/docs/install' },
           { text: '使用', link: '/docs/usage' },
-          { text: '获得激活码', link: '/docs/get-activation-code' }
+          { text: '获得激活码', link: '/docs/get-activation-code' },
+          { text: '修复Notion API 404问题方案', link: '/docs/fix-404' }
         ]
       }
     ],
