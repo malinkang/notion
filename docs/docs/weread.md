@@ -4,6 +4,8 @@ outline: deep
 
 # 使用指南
 
+使用之前请先参考[安装指南](./install.md)安装Notionhub插件
+
 新版本和原weread2notionpro模板一致。预览效果：https://book.malinkang.com/
 
 ## 使用新的模板
@@ -18,6 +20,5 @@ outline: deep
 
 如果使用过weread2notionpro，想继续使用原来的模板，可以继续使用老的模板。
 
-> 目前Edge和Firefox上的版本还不支持使用老的模板，请选择Chrome或者手动安装
 
 <video src="https://images.malinkang.com/%E4%BD%BF%E7%94%A8%E8%80%81%E6%A8%A1%E6%9D%BF.mp4" controls></video>

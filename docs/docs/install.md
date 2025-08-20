@@ -4,14 +4,14 @@ outline: deep
 
 # 安装
 
-## 在Chrome上安装
+## 插件市场安装
 
+可以打开https://www.notionhub.app/首页，根据自己使用的浏览器，选择不同的插件市场进行安装。
 
 <video src="https://images.malinkang.com/Google%20Chrome.mp4" controls></video>
 
 
-## 在Chrome上手动安装
-
+## 手动安装
 
 
 
