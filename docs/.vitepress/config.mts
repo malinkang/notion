@@ -8,7 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '使用文档', link: '/docs/usage' },
+      { text: '微信读书使用文档', link: '/docs/weread' },
+      { text: '小宇宙使用文档', link: '/docs/podcast' },
     ],
     logo: "logo.png",
     sidebar: [
