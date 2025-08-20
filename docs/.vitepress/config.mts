@@ -8,15 +8,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '微信读书使用文档', link: '/docs/weread' },
-      { text: '小宇宙使用文档', link: '/docs/podcast' },
+      { text: '文档', link: '/docs/install' },
     ],
     logo: "logo.png",
     sidebar: [
       {
         items: [
           { text: '安装', link: '/docs/install' },
-          { text: '使用', link: '/docs/usage' },
+          { text: '微信读书使用文档', link: '/docs/weread' },
+          { text: '小宇宙使用文档', link: '/docs/podcast' },
           { text: '获得激活码', link: '/docs/get-activation-code' },
           { text: '修复Notion API 404问题方案', link: '/docs/fix-404' }
         ]
