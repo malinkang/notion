@@ -16,6 +16,7 @@ export default defineConfig({
         items: [
           { text: '安装', link: '/docs/install' },
           { text: '微信读书使用文档', link: '/docs/weread' },
+          { text: '豆瓣使用文档', link: '/docs/douban' },
           { text: '小宇宙使用文档', link: '/docs/podcast' },
           { text: '获得激活码', link: '/docs/get-activation-code' },
           { text: '修复Notion API 404问题方案', link: '/docs/fix-404' }
