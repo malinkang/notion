@@ -6,7 +6,7 @@ outline: deep
 
 使用之前没有安装的请先参考[安装指南](./install.md)安装Notionhub插件
 
-预览效果：https://movie.malinkang.com/
+预览效果：https://malinkang.notion.site/douban
 
 
 
