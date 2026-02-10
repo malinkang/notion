@@ -14,7 +14,7 @@ outline: deep
 ## 手动安装
 
 
-点击[这里](../notionhub.zip)下载插件：
+点击[这里](../notionhub-1.0.5.zip)下载插件：
 
 
 下载成功之后，打开chrome浏览器输入`chrome://extensions/` 
