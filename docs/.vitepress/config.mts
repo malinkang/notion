@@ -27,6 +27,7 @@ export default defineConfig({
           { text: '豆瓣', link: '/docs/douban' },
           { text: '小宇宙播客', link: '/docs/podcast' },
           { text: 'Flomo', link: '/docs/flomo' },
+          { text: 'Keep', link: '/docs/keep' },
         ]
       },
       {
