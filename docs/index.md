@@ -7,11 +7,14 @@ hero:
   tagline: 自动同步微信读书、豆瓣、小宇宙、Flomo等数据到Notion
   actions:
     - theme: brand
-      text: 快速开始
-      link: /docs/install
+      text: Chrome 安装
+      link: https://chromewebstore.google.com/detail/notionhub/hgfdgnpgbginjojfpjaciadnmnnfidio?hl=zh-cn
     - theme: alt
-      text: 获取激活码
-      link: /docs/get-activation-code
+      text: Edge 安装
+      link: https://microsoftedge.microsoft.com/addons/detail/notionhub/nhcohggkdochmfmnhaiemejiipnejkaf
+    - theme: alt
+      text: Firefox 安装
+      link: https://addons.mozilla.org/zh-CN/firefox/addon/notionhub/
 features:
   - icon: 📚
     title: 微信读书
