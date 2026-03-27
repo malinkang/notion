@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: Firefox 安装
       link: https://addons.mozilla.org/zh-CN/firefox/addon/notionhub/
+    - theme: alt
+      text: 手动安装
+      link: /docs/install.html#手动安装
 features:
   - icon: 📚
     title: 微信读书
