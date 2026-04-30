@@ -31,10 +31,20 @@ export default defineConfig({
         ]
       },
       {
+        text: '通知配置',
+        items: [
+          { text: 'Telegram', link: '/docs/notifications/telegram' },
+          { text: '飞书', link: '/docs/notifications/feishu' },
+          { text: '钉钉', link: '/docs/notifications/dingtalk' },
+          { text: '企业微信', link: '/docs/notifications/wecom' },
+        ]
+      },
+      {
         text: '帮助',
         items: [
           { text: '常见问题', link: '/docs/faq' },
           { text: '修复 404 问题', link: '/docs/fix-404' },
+          { text: '模板页面不存在或无访问权限', link: '/docs/template-page-no-access' },
           { text: '技术支持', link: '/docs/support' },
         ]
       }
