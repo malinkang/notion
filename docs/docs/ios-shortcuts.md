@@ -20,6 +20,10 @@ https://trigger.notionhub.app
 | --- | --- |
 | 微信读书 | [安装快捷指令](https://www.icloud.com/shortcuts/d3f64d33b3f5490fbe75b28512b6f68a) |
 | 小宇宙 | [安装快捷指令](https://www.icloud.com/shortcuts/dfac54f779a149c89c27fcd5f42b488e) |
+| 滴答清单 | [安装快捷指令](https://www.icloud.com/shortcuts/2968ff4ca62e40b3b31d1355bd37697f) |
+| flomo | [安装快捷指令](https://www.icloud.com/shortcuts/d74cd548abf3457d8a703f736e14a5f5) |
+| 豆瓣 | [安装快捷指令](https://www.icloud.com/shortcuts/06199172fa514283b132ed4ce74b14dd) |
+| Keep | [安装快捷指令](https://www.icloud.com/shortcuts/4c6e44eeb15040548c71809e57580ac3) |
 
 安装后，把快捷指令里的 `userId` 改成你自己的 NotionHub 用户 ID。
 
