@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1120" viewBox="0 0 720 1120" role="img" aria-labelledby="title desc">
+  <title id="title">选择 App 自动化触发条件示意图</title>
+  <desc id="desc">在触发条件列表中选择 App。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a3a96"/>
+      <stop offset="0.52" stop-color="#6b4fd2"/>
+      <stop offset="1" stop-color="#ff6aa3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#1d1d35" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="720" height="1120" fill="url(#bg)"/>
+  <rect x="130" y="118" width="460" height="884" rx="72" fill="#f3f3f7" filter="url(#shadow)"/>
+  <rect x="290" y="138" width="140" height="40" rx="20" fill="#050505"/>
+  <text x="190" y="170" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="24" font-weight="700" fill="#111">15:40</text>
+  <circle cx="174" cy="256" r="34" fill="#fff"/>
+  <text x="174" y="270" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="46" fill="#111">×</text>
+  <rect x="150" y="372" width="420" height="344" rx="28" fill="#fff"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif">
+    <text x="214" y="430" font-size="24" font-weight="700" fill="#111">飞行模式</text>
+    <text x="214" y="462" font-size="18" fill="#999">“打开飞行模式时”</text>
+    <text x="214" y="500" font-size="24" font-weight="700" fill="#111">无线局域网</text>
+    <text x="214" y="532" font-size="18" fill="#999">“我的 iPhone 加入家庭网络时”</text>
+    <text x="214" y="570" font-size="24" font-weight="700" fill="#111">蓝牙</text>
+    <text x="214" y="602" font-size="18" fill="#999">“我的 iPhone 与 AirPods 连接时”</text>
+    <text x="214" y="640" font-size="24" font-weight="700" fill="#111">NFC</text>
+    <text x="214" y="672" font-size="18" fill="#999">“轻触 NFC 标签时”</text>
+  </g>
+  <rect x="150" y="758" width="420" height="210" rx="28" fill="#fff"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif">
+    <rect x="170" y="790" width="28" height="28" rx="7" fill="#666"/>
+    <text x="184" y="813" text-anchor="middle" font-size="28" font-weight="700" fill="#fff">↗</text>
+    <text x="214" y="814" font-size="24" font-weight="700" fill="#111">App</text>
+    <text x="214" y="846" font-size="18" fill="#999">“打开或关闭‘天气’时”</text>
+    <line x1="214" y1="868" x2="552" y2="868" stroke="#e6e6ea"/>
+    <text x="214" y="910" font-size="24" font-weight="700" fill="#111">钱包</text>
+    <text x="214" y="942" font-size="18" fill="#999">“轻触钱包卡片或凭证时”</text>
+  </g>
+  <circle cx="412" cy="760" r="30" fill="#ff3045"/>
+  <path d="M432 782 L394 815" stroke="#ff3045" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M394 815 l33 -7 l-22 -25 z" fill="#ff3045"/>
+</svg>
