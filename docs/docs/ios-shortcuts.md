@@ -1,0 +1,96 @@
+---
+outline: deep
+---
+
+# iOS 快捷指令触发同步
+
+你可以使用 iOS 快捷指令手动触发 NotionHub 同步，也可以配合 iOS 自动化，在关闭某个 App 或到达指定时间时自动触发同步。
+
+所有快捷指令都请求同一个地址：
+
+```text
+https://trigger.notionhub.app
+```
+
+## 现成快捷指令
+
+如果你只想直接使用，可以先安装下面的快捷指令：
+
+| 同步服务 | 快捷指令 |
+| --- | --- |
+| 微信读书 | [安装快捷指令](https://www.icloud.com/shortcuts/d3f64d33b3f5490fbe75b28512b6f68a) |
+| 小宇宙 | [安装快捷指令](https://www.icloud.com/shortcuts/dfac54f779a149c89c27fcd5f42b488e) |
+
+安装后，把快捷指令里的 `userId` 改成你自己的 NotionHub 用户 ID。
+
+## 请求字段
+
+快捷指令发送的是一个 `POST` 请求，正文使用表单或文本都可以。
+
+必填字段：
+
+| 字段 | 说明 |
+| --- | --- |
+| `userId` | 你的 NotionHub 用户 ID |
+| `type` | 要触发的同步服务 |
+
+常用 `type`：
+
+| 同步服务 | type |
+| --- | --- |
+| 微信读书 | `weread` 或 `微信读书` |
+| 小宇宙 | `podcast` 或 `小宇宙` |
+| 豆瓣 | `douban` 或 `豆瓣` |
+| Keep | `keep` |
+| 滴答清单 | `dida` 或 `滴答清单` |
+| flomo | `flomo` |
+| 多邻国 | `duolingo` 或 `多邻国` |
+| B 站 | `bilibili` 或 `B站` |
+| 网易云音乐 | `neteasemusic` 或 `网易云音乐` |
+| 小红书 | `xiaohongshu`、`xhs` 或 `小红书` |
+| Forest | `forest` |
+| Toggl | `toggl` |
+| Apple Music | `applemusic` 或 `Apple Music` |
+| Strava | `strava` |
+| Trakt | `trakt` |
+
+## 自己创建快捷指令
+
+如果你想自己创建，步骤如下：
+
+1. 打开 iOS「快捷指令」App，创建一个新的快捷指令。
+2. 添加「获取 URL 内容」动作。
+3. URL 填写：
+
+```text
+https://trigger.notionhub.app
+```
+
+4. 方法选择 `POST`。
+5. 请求正文选择「表单」。
+6. 添加两个字段：
+
+```text
+userId = 你的 NotionHub 用户 ID
+type = weread
+```
+
+创建其它服务时，复制这个快捷指令，只需要修改快捷指令名称和 `type` 字段即可。
+
+## 配合自动化
+
+你可以用 iOS 自动化自动运行对应快捷指令：
+
+| 场景 | 推荐动作 |
+| --- | --- |
+| 关闭微信读书 App | 运行「同步微信读书」快捷指令 |
+| 关闭小宇宙 App | 运行「同步小宇宙」快捷指令 |
+| 每天晚上固定时间 | 运行你想定时同步的快捷指令 |
+
+建议在自动化设置里关闭「运行前询问」，这样触发条件满足时会自动同步。
+
+## 注意事项
+
+- 每个服务每天有触发次数限制，避免误触发导致频繁同步。
+- 快捷指令只负责触发同步，真正的同步仍在 NotionHub 云端执行。
+- 如果返回同步已开始，但 Notion 中没有变化，可能是当前服务没有新数据，或同步任务仍在执行中。
