@@ -9,5 +9,5 @@ outline: deep
 * 播客50元，激活码一次购买终生使用，不限制设备。
 * 豆瓣50元，激活码一次购买终生使用，不限制设备。
 
-![](https://images.malinkang.com/2025/05/5125bdf30179a91a8be74e29a9d0e622.png)
+![](https://cdn.notionhub.app/2025/05/5125bdf30179a91a8be74e29a9d0e622.png)
 

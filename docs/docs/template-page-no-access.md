@@ -10,7 +10,7 @@ outline: deep
 
 打开 Notionhub 插件，进入同步服务配置页，点击 `打开 Notion 模板`，确认 Notion 是否能正常打开该模板页面。
 
-![](https://images.malinkang.com/2026/03/b76dc591d8373d9aed0e80d301090835.png)
+![](https://cdn.notionhub.app/2026/03/b76dc591d8373d9aed0e80d301090835.png)
 
 如果模板已经被删除，你可以：
 
