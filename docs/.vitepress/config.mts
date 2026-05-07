@@ -26,9 +26,14 @@ export default defineConfig({
           { text: '微信读书', link: '/docs/weread' },
           { text: '豆瓣', link: '/docs/douban' },
           { text: '小宇宙播客', link: '/docs/podcast' },
-          { text: 'iOS 快捷指令', link: '/docs/ios-shortcuts' },
           { text: 'Flomo', link: '/docs/flomo' },
           { text: 'Keep', link: '/docs/keep' },
+        ]
+      },
+      {
+        text: '触发同步',
+        items: [
+          { text: 'iOS 快捷指令', link: '/docs/ios-shortcuts' },
         ]
       },
       {
