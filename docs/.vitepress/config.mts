@@ -34,6 +34,7 @@ export default defineConfig({
         text: '触发同步',
         items: [
           { text: 'iOS 快捷指令', link: '/docs/ios-shortcuts' },
+          { text: 'Android HTTP Shortcuts', link: '/docs/http-shortcuts' },
         ]
       },
       {
