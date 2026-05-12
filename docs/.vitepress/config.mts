@@ -28,6 +28,7 @@ export default defineConfig({
           { text: '小宇宙播客', link: '/docs/podcast' },
           { text: 'Flomo', link: '/docs/flomo' },
           { text: 'Keep', link: '/docs/keep' },
+          { text: '网易云音乐', link: '/docs/neteasemusic' },
         ]
       },
       {
