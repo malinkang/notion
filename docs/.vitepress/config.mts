@@ -24,6 +24,7 @@ export default defineConfig({
         text: '使用指南',
         items: [
           { text: '微信读书', link: '/docs/weread' },
+          { text: 'WeRead2Notion开源版', link: '/docs/weread2notion-open-source' },
           { text: '豆瓣', link: '/docs/douban' },
           { text: '小宇宙播客', link: '/docs/podcast' },
           { text: 'Flomo', link: '/docs/flomo' },
