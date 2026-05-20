@@ -7,9 +7,11 @@ outline: deep
 
 ![研究了微信读书 Skills，我把 WeRead2Notion 复活了](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-skills-cover.png)
 
-前段时间研究了一下微信读书新开放的 Skills，发现很多能力已经可以比较稳定地拿到读书数据了。
+前段时间研究了一下微信读书新开放的 Skills。本来只是想看看它能做什么，结果把 Skills 包解压之后，发现里面放的其实是一组微信读书 API 文档，包括书籍、书架、笔记、搜索、阅读数据等接口说明。
 
-我之前做过一个开源项目 WeRead2Notion，用来把微信读书的划线和笔记同步到 Notion。后来因为接口不稳定、维护成本高，这个项目一度停更。最近借着微信读书 Skills 的契机，我重新整理了一下这个项目：去掉 Cookie，改成 API Key；把 Notion 接口升级到新版 data source API；顺手把 GitHub Action 也封装了一下。
+![微信读书 Skills 解压后的 API 文档](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread-skills-api-docs.webp)
+
+我之前做过一个开源项目 WeRead2Notion，用来把微信读书的划线和笔记同步到 Notion。后来因为接口不稳定、维护成本高，这个项目一度停更。这次看到这些文档后，我就参考里面的 API 重新梳理了一遍项目：去掉 Cookie，改成 API Key；把 Notion 接口升级到新版 data source API；顺手把 GitHub Action 也封装了一下。
 
 所以，这篇文章就记录一下新版 WeRead2Notion 怎么用。
 
