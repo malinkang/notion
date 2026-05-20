@@ -5,7 +5,7 @@ outline: deep
 
 # 研究了微信读书 Skills，我把 WeRead2Notion 复活了
 
-![研究了微信读书 Skills，我把 WeRead2Notion 复活了](/weread2notion-skills-cover.png)
+![研究了微信读书 Skills，我把 WeRead2Notion 复活了](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-skills-cover.png)
 
 前段时间研究了一下微信读书新开放的 Skills，发现很多能力已经可以比较稳定地拿到读书数据了。
 
@@ -27,7 +27,7 @@ WeRead2Notion 会在检测到书籍笔记更新时删除原来的同步页面，
 
 预览效果：[https://malinkang.notion.site/weread2notion?](https://malinkang.notion.site/weread2notion?)
 
-![WeRead2Notion 预览效果](/weread2notion-preview.webp)
+![WeRead2Notion 预览效果](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-preview.webp)
 
 ## 准备工作
 
@@ -64,7 +64,7 @@ WeRead2Notion 会在检测到书籍笔记更新时删除原来的同步页面，
 
 授权成功后页面大概如下，点击右侧的复制按钮即可：
 
-![Notion 授权成功后复制 Token 和页面信息](/notion-auth-success.webp)
+![Notion 授权成功后复制 Token 和页面信息](https://cdn.notionhub.app/notionhub/weread2notion-open-source/notion-auth-success.webp)
 
 ::: tip
 先把这两个值临时保存到本地备忘录里，后面会一起填到 GitHub Secrets。
@@ -82,7 +82,7 @@ WeRead2Notion 会在检测到书籍笔记更新时删除原来的同步页面，
 3. 登录后点击 `创建 Key`。
 4. 创建完成后点击 `复制 Key`，复制出来的内容就是后面要填写到 GitHub Secrets 里的 `WEREAD_API_KEY`。
 
-![微信读书 API Key 获取示例](/weread-api-key-guide.webp)
+![微信读书 API Key 获取示例](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread-api-key-guide.webp)
 
 ::: warning
 API Key 可以读取你的微信读书数据，不要发给别人，也不要直接写到公开仓库代码里。
@@ -287,7 +287,7 @@ NotionHub 微信读书支持：
 
 预览效果：[https://malinkang.notion.site/book](https://malinkang.notion.site/book)
 
-![NotionHub 微信读书预览](/notionhub-weread-preview.webp)
+![NotionHub 微信读书预览](https://cdn.notionhub.app/notionhub/weread2notion-open-source/notionhub-weread-preview.webp)
 
 简单来说：
 
