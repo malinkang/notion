@@ -5,6 +5,12 @@ outline: deep
 
 # 研究了微信读书 Skills，我把 WeRead2Notion 复活了
 
+前段时间研究了一下微信读书新开放的 Skills，发现很多能力已经可以比较稳定地拿到读书数据了。
+
+我之前做过一个开源项目 WeRead2Notion，用来把微信读书的划线和笔记同步到 Notion。后来因为接口不稳定、维护成本高，这个项目一度停更。最近借着微信读书 Skills 的契机，我重新整理了一下这个项目：去掉 Cookie，改成 API Key；把 Notion 接口升级到新版 data source API；顺手把 GitHub Action 也封装了一下。
+
+所以，这篇文章就记录一下新版 WeRead2Notion 怎么用。
+
 WeRead2Notion 用于将微信读书的划线、想法和书籍信息自动同步到 Notion。新版已经改为 GitHub Action + 微信读书 API Key 的方式运行，不再需要复制微信读书 Cookie，也不需要 fork 后手动同步源码。
 
 ::: danger 重要提醒
