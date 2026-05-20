@@ -216,14 +216,6 @@ weread2notion sync
 
 ![](https://images.malinkang.com/2024/03/27ab73fed87b15a3a55d05423bd90167.jpg)
 
-新版脚本会对常见配置错误输出类似这样的错误：
-
-```text
-::error::NOTION_TOKEN 格式不正确：应以 secret_ 或 ntn_ 开头，不能包含空格或换行
-```
-
-如果看到这类错误，请优先检查 GitHub Secrets 是否填错。
-
 ### 2. 提示缺少 `BookId` 或 `Sort`
 
 说明你的 Notion 模板里缺少必填属性。请在目标数据库里新增：
@@ -290,6 +282,7 @@ NotionHub 微信读书支持：
 - **增量同步**：只同步新增或变化的数据，减少重复写入，也更适合数据量比较大的账号。
 - **阅读热力图**：把每天阅读情况做成类似 GitHub Contributions 的热力图，直观看到自己的阅读习惯。
 - **每日阅读数据同步到 Notion**：每天读了多久、读了几本、写了多少笔记、划了多少线，都可以沉淀到 Notion。
+- **书架书籍同步到 Notion**：不只是同步有划线和笔记的书，也可以把微信读书书架里的书籍同步到 Notion。
 - **更完整的阅读看板**：支持最近在读、书架、作者、分类、章节、阅读时长、阅读进度等更多维度。
 
 预览效果：[https://malinkang.notion.site/book](https://malinkang.notion.site/book)
