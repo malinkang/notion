@@ -7,15 +7,15 @@ outline: deep
 
 ![研究了微信读书 Skills，我把 WeRead2Notion 复活了](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-skills-cover.png)
 
-前段时间研究了一下微信读书新开放的 Skills。本来只是想看看它能做什么，结果把 Skills 包解压之后，发现里面放的其实是一组微信读书 API 文档，包括书籍、书架、笔记、搜索、阅读数据等接口说明。
+昨天把 Skills 包解压之后，发现里面放的其实是一组微信读书 API 文档，包括书籍、书架、笔记、搜索、阅读数据等接口说明。
 
 ![微信读书 Skills 解压后的 API 文档](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread-skills-api-docs.webp)
 
-我之前做过一个开源项目 WeRead2Notion，用来把微信读书的划线和笔记同步到 Notion。后来因为接口不稳定、维护成本高，这个项目一度停更。这次看到这些文档后，我就参考里面的 API 重新梳理了一遍项目：去掉 Cookie，改成 API Key；把 Notion 接口升级到新版 data source API；顺手把 GitHub Action 也封装了一下。
+WeRead2Notion去年因为微信读书修改了接口这个项目停更了。这次看到这些文档后，我就参考里面的 API 重新梳理了一遍项目：去掉 Cookie，改成 API Key；
 
 所以，这篇文章就记录一下新版 WeRead2Notion 怎么用。
 
-WeRead2Notion 用于将微信读书的划线、想法和书籍信息自动同步到 Notion。新版已经改为 GitHub Action + 微信读书 API Key 的方式运行，不再需要复制微信读书 Cookie，也不需要 fork 后手动同步源码。
+WeRead2Notion 用于将微信读书的划线、想法和书籍信息自动同步到 Notion。新版已经改为 GitHub Action + 微信读书 API Key 的方式运行，不再需要复制微信读书 Cookie。
 
 ::: danger 重要提醒
 WeRead2Notion 会在检测到书籍笔记更新时删除原来的同步页面，然后重新写入微信读书数据。请不要在同步生成的书籍页面里添加自己的笔记、批注或其他重要内容，否则下次同步时可能会被删除且无法恢复。
@@ -30,6 +30,10 @@ WeRead2Notion 会在检测到书籍笔记更新时删除原来的同步页面，
 预览效果：[https://malinkang.notion.site/weread2notion?](https://malinkang.notion.site/weread2notion?)
 
 ![WeRead2Notion 预览效果](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-preview.webp)
+
+笔记详情页预览：
+
+![WeRead2Notion 笔记详情页预览](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-note-detail.webp)
 
 ## 准备工作
 
