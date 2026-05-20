@@ -5,6 +5,8 @@ outline: deep
 
 # 研究了微信读书 Skills，我把 WeRead2Notion 复活了
 
+![研究了微信读书 Skills，我把 WeRead2Notion 复活了](/weread2notion-skills-cover.png)
+
 前段时间研究了一下微信读书新开放的 Skills，发现很多能力已经可以比较稳定地拿到读书数据了。
 
 我之前做过一个开源项目 WeRead2Notion，用来把微信读书的划线和笔记同步到 Notion。后来因为接口不稳定、维护成本高，这个项目一度停更。最近借着微信读书 Skills 的契机，我重新整理了一下这个项目：去掉 Cookie，改成 API Key；把 Notion 接口升级到新版 data source API；顺手把 GitHub Action 也封装了一下。
@@ -21,7 +23,7 @@ WeRead2Notion 会在检测到书籍笔记更新时删除原来的同步页面，
 本文介绍的是开源版 WeRead2Notion，主要用于同步微信读书的书籍、划线和笔记。请使用开源版对应的 Notion 模板，不要和其他微信读书同步模板混用。
 :::
 
-预览效果：https://book.malinkang.com/
+预览效果：[https://malinkang.notion.site/weread2notion?](https://malinkang.notion.site/weread2notion?)
 
 ## 准备工作
 
