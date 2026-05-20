@@ -1,9 +1,9 @@
 ---
-title: WeRead2Notion 使用文档
+title: 研究了微信读书 Skills，我把 WeRead2Notion 复活了
 outline: deep
 ---
 
-# WeRead2Notion 使用文档
+# 研究了微信读书 Skills，我把 WeRead2Notion 复活了
 
 WeRead2Notion 用于将微信读书的划线、想法和书籍信息自动同步到 Notion。新版已经改为 GitHub Action + 微信读书 API Key 的方式运行，不再需要复制微信读书 Cookie，也不需要 fork 后手动同步源码。
 
