@@ -110,7 +110,13 @@ https://github.com/malinkang/weread2notion
 
 Fork 完成后，进入你 Fork 后的仓库，点击 `Actions`。
 
+![进入 GitHub Actions 并启用 workflow](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-actions-enable-main.webp)
+
 如果 GitHub 提示需要启用 workflow，点击同意启用即可。
+
+如果进入后看到 `weread sync` 还是 Disabled，可以先点击左侧的 `weread sync`，然后点击右侧的 `Enable workflow`。
+
+![启用 weread sync workflow](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-actions-enable-workflow.webp)
 
 ## 4. 填写 GitHub Secrets
 
