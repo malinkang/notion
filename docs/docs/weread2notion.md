@@ -98,7 +98,11 @@ https://github.com/malinkang/weread2notion
 
 点击右上角的 `Fork`，把项目复制到你自己的 GitHub 账号下。
 
-![](https://images.malinkang.com/2024/03/fc6be407e45f0e3a3067252dd2c51c73.jpg)
+![点击 GitHub 右上角 Fork 按钮](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-fork-button.webp)
+
+进入创建 Fork 页面后，一般保持默认设置即可，然后点击 `Create fork`。
+
+![创建 GitHub Fork](https://cdn.notionhub.app/notionhub/weread2notion-open-source/weread2notion-create-fork.webp)
 
 ::: tip
 如果你觉得项目有用，Fork 的时候也可以顺手点一下 Star。
