@@ -310,3 +310,9 @@ NotionHub 微信读书支持：
 - 如果你想在 Notion 里长期维护自己的阅读系统、写自己的笔记、看阅读统计和热力图，可以使用 NotionHub 微信读书。
 
 NotionHub 还提供豆瓣、小宇宙播客、Flomo、Keep、网易云音乐等多种同步能力，适合把不同平台的数据统一整理到 Notion 中。
+
+## 使用问题
+
+如果有任何使用问题可以添加我的微信：
+
+![微信二维码](https://cdn.notionhub.app/notionhub/weread2notion-open-source/wechat-qr-carvetime.jpg)
